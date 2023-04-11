@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/StormWolves/static/css/main.073c9b0a.css",
+    "main.js": "/StormWolves/static/js/main.79d69654.js",
+    "static/js/787.28cb0dcd.chunk.js": "/StormWolves/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/StormWolves/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/StormWolves/index.html",
+    "main.073c9b0a.css.map": "/StormWolves/static/css/main.073c9b0a.css.map",
+    "main.79d69654.js.map": "/StormWolves/static/js/main.79d69654.js.map",
+    "787.28cb0dcd.chunk.js.map": "/StormWolves/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.79d69654.js"
+  ]
+}

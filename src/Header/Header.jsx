@@ -11,9 +11,9 @@ const Header = () => {
             </img>
             <ul className={classes.nav}>
                     <li><a href={<News />}>Новости</a></li>
-                    <li><a href={<News />}>Новости</a></li>
-                    <li><a href={<News />}>Новости</a></li>
-                    <li><a href={<News />}>Новости</a></li>
+                    <li><a href={<News />}>Результаты</a></li>
+                    <li><a href={<News />}>Магазин</a></li>
+                    <li><a href={<News />}>История</a></li>
             </ul>
             <img src={ogneypor} className={classes.img_sponsor_og}></img>
             <img src={sobr} className={classes.img_sponsor_sobr}></img>

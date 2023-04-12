@@ -10,7 +10,9 @@
 }
 .header {
     display: flex;
-    border: 2px solid white;
+    border: 2px solid #252733;
+    background-color: #393c4e;
+    height: 100%;
 }
 .img {
     margin: 0;

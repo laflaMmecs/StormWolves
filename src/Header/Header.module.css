@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: Garet;
+    src: url("../fonts/ofont.ru_Garet.ttf");
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    border: 2px solid white;
+}
+.img {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: auto;
+}
+.img_sponsor_og {
+    margin-top: 20px;
+    margin-left: 350px;
+    width: 180px;
+    height: 100px;
+}
+.img_sponsor_sobr {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+}
+.nav {
+    align-items: center;
+    padding: 0;
+    margin-left: 100px;
+    display: flex;
+    list-style-type: none;
+}
+.nav li a{
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-family: Garet;
+    font-size: 20px;
+}
+.nav li a:hover{
+    background-color: white;
+    color: black;
+}

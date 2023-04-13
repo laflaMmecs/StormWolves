@@ -7,6 +7,7 @@ const NewsItem = ({ newsItem }) => {
             <h2 className={classes.title}>{newsItem.title}</h2>
             <p className={classes.desc}>{newsItem.description}</p>
             <img className={classes.img} src={newsItem.image}/>
+            <div className={classes.date}>{newsItem.date}</div>
         </div>
     );
 };

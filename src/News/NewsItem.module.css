@@ -1,8 +1,16 @@
+@font-face {
+    font-family: Garet;
+    src: url("../fonts/ofont.ru_Garet.ttf");
+}
+@font-face {
+    font-family: Onest;
+    src: url("../fonts/ofont.ru_Onest.ttf");
+}
 .post_container{
     max-width: 600px;
     margin: 20px auto 0;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #393c4e;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     border: 2px solid white;
     border-radius: 10px;
@@ -13,10 +21,23 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .title {
+    font-family: Garet;
+    color: white;
     font-size: 34px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .desc {
+    font-family: Onest;
     font-size: 26px;
     margin-bottom: 20px;
+    color: white;
+    text-align: left;
+    white-space: pre-wrap
+}
+.date {
+    font-family: Garet;
+    font-size: 26px;
+    text-align: right;
+    color: white;
 }

@@ -1,0 +1,45 @@
+.title {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.matchScore {
+    display: flex;
+    text-align: center;
+    background-color: #21232d;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.team1{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.team2{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.score{
+    font-size: 100px;
+    color: white;
+    padding: 60px;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.classes.teamName {
+    padding-left: 10px;
+}

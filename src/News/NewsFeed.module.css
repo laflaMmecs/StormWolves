@@ -1,7 +1,15 @@
 .allPosts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+}
+.title {
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
 }

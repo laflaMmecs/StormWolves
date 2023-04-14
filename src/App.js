@@ -1,20 +1,12 @@
-
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
 import Header from "./Header/Header";
 import News from "./News/News";
 import React from "react";
 import ResultsPage from "./Results/ResultsPage";
+import Results from "./Results/Results";
+import Main from "./Main";
 function App() {
-    const [matches, setMatches] = React.useState([]);
-    React.useEffect(() => {
-        fetch('https://643964301b9a7dd5c9666ed2.mockapi.io/matches')
-            .then((res) => {
-            return res.json();
-        })
-            .then((arr) => {
-            setMatches(arr)
-        })
-    },[]);
     const news = [
         { title: '⚡ Сегодня наша команда принимает участие в ESEA EU 5v5 Spring Cash Cup #3 и уже выбила Insilio со счетом 16:10', description: '💥 Давайте поддержим наших ребят 💥' , image: "https://sun9-77.userapi.com/impg/SXKsaxQwwcABnNq_xkNwm1BJIyh1Iiqvz7OUtQ/Oj2BaYa4zyc.jpg?size=828x650&quality=96&sign=4f363e5e7282c8d5e7b07e8f9d7edf6c&type=album",
             date: '23 April 2022'},
@@ -33,9 +25,13 @@ function App() {
     <div className="App">
         <body>
         <Header />
-        <News news={news}/>
-        <ResultsPage matches={matches} />
-
+        {/*<News news={news}/>*/}
+        {/*<ResultsPage matches={matches} />*/}
+        <Routes>
+            <Route path="/" element={<Main news={news} />} />
+            <Route path="/news" element={<News news={news}/>} />
+            <Route path="/results" element={<ResultsPage  />} />
+        </Routes>
         </body>
     </div>
   );

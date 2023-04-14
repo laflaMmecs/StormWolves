@@ -5,7 +5,7 @@ const ResultsPage = ({matches}) => {
     return (
         <div>
             <h1 className={classes.title}>Последние матчи</h1>
-            <div>
+            <div className={classes.matchPage}>
                 {matches.map((item, index) => (
                     <Results key={index} matches={item}/>
                 ))}

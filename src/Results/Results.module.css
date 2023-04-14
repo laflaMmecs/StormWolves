@@ -1,15 +1,18 @@
+@font-face {
+    font-family: Garet;
+    src: url("../fonts/ofont.ru_Garet.ttf");
+}
 .title {
-    font-size: 20px;
     color: white;
     text-align: center;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 40px;
 }
 .matchScore {
     display: flex;
     text-align: center;
-    background-color: #21232d;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-family: Garet;
 }
 .team1{
     display: flex;
@@ -28,18 +31,27 @@
     align-items: center;
 }
 .score{
-    font-size: 100px;
+    font-size: 80px;
     color: white;
-    padding: 60px;
+    padding: 50px;
 }
 .img1{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 .img{
     width: 200px;
     height: 200px;
 }
-.classes.teamName {
-    padding-left: 10px;
+.teamName {
+    padding-left: 50px;
 }
+.champTitle{
+    display: flex;
+    align-items: center;
+}
+.imgTitle{
+    width: 200px;
+    height: 200px;
+}
+

@@ -4,7 +4,10 @@ const Results = ({matches}) => {
     return (
         <div>
             <div>
-                <h3 className={classes.title}>{matches.title}</h3>
+                <div className={classes.champTitle}>
+                    <img className={classes.imgTitle} src={matches. titleImg}/>
+                    <h3 className={classes.title}>{matches.title}</h3>
+                </div>
                 <div className={classes.matchScore}>
                     <div className={classes.team1}>
                         <img className={classes.img1} src={matches. teamOneImg}/>

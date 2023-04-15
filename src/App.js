@@ -6,6 +6,7 @@ import React from "react";
 import ResultsPage from "./Results/ResultsPage";
 import Results from "./Results/Results";
 import Main from "./Main";
+import MagazineFeed from "./Magazine/MagazineFeed";
 function App() {
     const news = [
         { title: '⚡ Сегодня наша команда принимает участие в ESEA EU 5v5 Spring Cash Cup #3 и уже выбила Insilio со счетом 16:10', description: '💥 Давайте поддержим наших ребят 💥' , image: "https://sun9-77.userapi.com/impg/SXKsaxQwwcABnNq_xkNwm1BJIyh1Iiqvz7OUtQ/Oj2BaYa4zyc.jpg?size=828x650&quality=96&sign=4f363e5e7282c8d5e7b07e8f9d7edf6c&type=album",
@@ -21,16 +22,17 @@ function App() {
         { title: '⚡ И снова мы начинаем покорять дороги киберспорта, после долгой паузы организация начинает свою работу.', description: 'За это время мы немного пересмотрели приоритеты организации и решили полностью посвятить себя развитию составов \n'+ '❤ Спасибо всем, кто ждал и оставался с нами ❤' , image: "https://sun9-36.userapi.com/impg/Tnz0BE8__v2K-XUsJa-LK5y4ZorUZuFj1i39vQ/ocueTsK8Guw.jpg?size=1920x1080&quality=96&sign=9ff09360cdc5eec14697d17dddd4fc51&type=album",
             date: '19 April 2022'},
     ];
+
   return (
     <div className="App">
         <body>
         <Header />
-        {/*<News news={news}/>*/}
-        {/*<ResultsPage matches={matches} />*/}
+
         <Routes>
             <Route path="/" element={<Main news={news} />} />
             <Route path="/news" element={<News news={news}/>} />
             <Route path="/results" element={<ResultsPage  />} />
+            <Route path="/magazine" element={<MagazineFeed  />} />
         </Routes>
         </body>
     </div>

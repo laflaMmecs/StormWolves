@@ -14,8 +14,8 @@ const Header = () => {
                 <li><Link to="/">Главная</Link></li>
                     <li><Link to="/news">Новости</Link></li>
                     <li><Link to="/results">Результаты</Link></li>
-                    {/*<li><a href={<News />}>Магазин</a></li>*/}
-                    {/*<li><a href={<News />}>История</a></li>*/}
+                    <li><Link to="/magazine">Магазин</Link></li>
+
             </ul>
             <img src={ogneypor} className={classes.img_sponsor_og}></img>
             <img src={sobr} className={classes.img_sponsor_sobr}></img>

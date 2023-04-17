@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/StormWolves/static/css/main.e7945627.css",
-    "main.js": "/StormWolves/static/js/main.d2331c28.js",
+    "main.css": "/StormWolves/static/css/main.595422ad.css",
+    "main.js": "/StormWolves/static/js/main.f5375b88.js",
     "static/js/787.28cb0dcd.chunk.js": "/StormWolves/static/js/787.28cb0dcd.chunk.js",
     "static/media/ofont.ru_Garet.ttf": "/StormWolves/static/media/ofont.ru_Garet.e742b9dca9b164faa0d9.ttf",
     "static/media/ofont.ru_Onest.ttf": "/StormWolves/static/media/ofont.ru_Onest.e4559b4ed9e48bf79d93.ttf",
@@ -9,12 +9,12 @@
     "static/media/ogneypor.png": "/StormWolves/static/media/ogneypor.7f6630b313963951d59f.png",
     "static/media/sobr.png": "/StormWolves/static/media/sobr.f2de559da5a6251bc827.png",
     "index.html": "/StormWolves/index.html",
-    "main.e7945627.css.map": "/StormWolves/static/css/main.e7945627.css.map",
-    "main.d2331c28.js.map": "/StormWolves/static/js/main.d2331c28.js.map",
+    "main.595422ad.css.map": "/StormWolves/static/css/main.595422ad.css.map",
+    "main.f5375b88.js.map": "/StormWolves/static/js/main.f5375b88.js.map",
     "787.28cb0dcd.chunk.js.map": "/StormWolves/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7945627.css",
-    "static/js/main.d2331c28.js"
+    "static/css/main.595422ad.css",
+    "static/js/main.f5375b88.js"
   ]
 }

@@ -11,14 +11,15 @@ const Header = () => {
             <img src={logo} className={classes.img}>
             </img>
             <ul className={classes.nav}>
-                <li><Link to="/">Главная</Link></li>
+                <li><Link to="/StormWolves">Главная</Link></li>
                     <li><Link to="/news">Новости</Link></li>
                     <li><Link to="/results">Результаты</Link></li>
                     <li><Link to="/magazine">Магазин</Link></li>
+                    <li><Link to="/players">История клуба</Link></li>
 
             </ul>
-            <img src={ogneypor} className={classes.img_sponsor_og}></img>
-            <img src={sobr} className={classes.img_sponsor_sobr}></img>
+            <img src={ogneypor} className={classes.img_sponsorOg}></img>
+            <img src={sobr} className={classes.img_sponsorSobr}></img>
         </div>
     );
 };

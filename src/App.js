@@ -7,6 +7,7 @@ import ResultsPage from "./Results/ResultsPage";
 import Results from "./Results/Results";
 import Main from "./Main";
 import MagazineFeed from "./Magazine/MagazineFeed";
+import PlayersFeed from "./Players/PlayersFeed";
 function App() {
     const news = [
         { title: '⚡ Сегодня наша команда принимает участие в ESEA EU 5v5 Spring Cash Cup #3 и уже выбила Insilio со счетом 16:10', description: '💥 Давайте поддержим наших ребят 💥' , image: "https://sun9-77.userapi.com/impg/SXKsaxQwwcABnNq_xkNwm1BJIyh1Iiqvz7OUtQ/Oj2BaYa4zyc.jpg?size=828x650&quality=96&sign=4f363e5e7282c8d5e7b07e8f9d7edf6c&type=album",
@@ -29,10 +30,11 @@ function App() {
         <Header />
 
         <Routes>
-            <Route path="/" element={<Main news={news} />} />
+            <Route path="/StormWolves" element={<Main news={news} />} />
             <Route path="/news" element={<News news={news}/>} />
             <Route path="/results" element={<ResultsPage  />} />
             <Route path="/magazine" element={<MagazineFeed  />} />
+            <Route path="/players" element={<PlayersFeed />} />
         </Routes>
         </body>
     </div>

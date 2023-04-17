@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Garet;
+    src: url("../fonts/ofont.ru_Garet.ttf");
+}
+@font-face {
+    font-family: Onest;
+    src: url("../fonts/ofont.ru_Onest.ttf");
+}
+* {
+    font-family: Garet;
+}
+.playerCart {
+    width: 800px;
+    height: 900px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #393c4e;
+}
+
+.playerTitle {
+    font-size: 36px;
+    color: white;
+    margin-top: 0;
+}
+
+.img {
+    width: 420px;
+    height: 600px;
+    border: 2px solid white;
+    background-color: white;
+}
+.firstBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.leftBlock{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.biography{
+    font-family: Onest;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+    white-space: pre-wrap;
+}
+.career{
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: Garet;
+    font-size: 20px;
+    color: white;
+}
+.achievements{
+    margin-top: 10px;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: Garet;
+    font-size: 20px;
+    color: white;
+}

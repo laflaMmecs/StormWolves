@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9049f24a-b8fb-4070-9b99-367cdcd76403" name="Changes" comment="" />
+    <list default="true" id="3584741c-d3b6-4421-96b7-7c4efeee3c4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Players/Player.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/PlayersFeed.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/PlayersFeed.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/Search.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Players/SearchFeed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/History/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Players/Player.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external"
+  }
+}]]></component>
   <component name="TaskManager">
     <servers />
   </component>

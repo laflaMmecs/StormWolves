@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/StormWolves/static/css/main.acb1185c.css",
+    "main.js": "/StormWolves/static/js/main.f32ca23c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/StormWolves/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ofont.ru_Garet.ttf": "/StormWolves/static/media/ofont.ru_Garet.e742b9dca9b164faa0d9.ttf",
+    "static/media/ofont.ru_Onest.ttf": "/StormWolves/static/media/ofont.ru_Onest.e4559b4ed9e48bf79d93.ttf",
+    "static/media/logo.png": "/StormWolves/static/media/logo.f043afdeb25fdd162b05.png",
+    "static/media/ogneypor.png": "/StormWolves/static/media/ogneypor.7f6630b313963951d59f.png",
+    "static/media/sobr.png": "/StormWolves/static/media/sobr.f2de559da5a6251bc827.png",
+    "index.html": "/StormWolves/index.html",
+    "main.acb1185c.css.map": "/StormWolves/static/css/main.acb1185c.css.map",
+    "main.f32ca23c.js.map": "/StormWolves/static/js/main.f32ca23c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/StormWolves/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb1185c.css",
+    "static/js/main.f32ca23c.js"
+  ]
+}

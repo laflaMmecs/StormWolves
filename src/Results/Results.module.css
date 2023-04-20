@@ -16,7 +16,7 @@
 }
 .team1{
     display: flex;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     text-align: center;
     justify-content: space-between;
@@ -24,24 +24,24 @@
 }
 .team2{
     display: flex;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     text-align: center;
     justify-content: space-between;
     align-items: center;
 }
 .score{
-    font-size: 80px;
+    font-size: 50px;
     color: white;
     padding: 50px;
 }
 .img1{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .teamName {
     padding-left: 50px;

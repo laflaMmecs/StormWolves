@@ -8,10 +8,11 @@ import News from "../News/News";
 const Header = () => {
     return (
         <div className={classes.header}>
-            <img src={logo} className={classes.img}>
-            </img>
             <ul className={classes.nav}>
-                <li><Link to="/StormWolves">Главная</Link></li>
+                <Link to="/StormWolves">
+                    <img src={logo} className={classes.img}>
+                    </img>
+                </Link>
                     <li><Link to="/news">Новости</Link></li>
                     <li><Link to="/results">Результаты</Link></li>
                     <li><Link to="/magazine">Магазин</Link></li>

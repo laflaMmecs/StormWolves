@@ -48,7 +48,7 @@ function App() {
         <Header />
 
         <Routes>
-            <Route path="/StormWolves" element={<Main/>} />
+            <Route path="/StormWolves" element={<Main aboutUs={aboutUs}/>} />
             <Route path="/news" element={<News/>} />
             <Route path="/results" element={<ResultsPage  />} />
             <Route path="/magazine" element={<MagazineFeed  />} />

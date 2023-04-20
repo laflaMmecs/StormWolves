@@ -3,8 +3,12 @@ import Header from "./Header/Header";
 import News from "./News/News";
 import Results from "./Results/Results";
 import ResultsPage from "./Results/ResultsPage";
+import {Route} from "react-router-dom";
+import MagazineFeed from "./Magazine/MagazineFeed";
+import AboutUsFeed from "./AboutUs/AboutUsFeed";
+import ContactUs from "./ContactUs/ContactUs";
 
-const Main = ({news}) => {
+const Main = ({aboutUs}) => {
 
     const [matches, setMatches] = React.useState([]);
     React.useEffect(() => {
@@ -18,8 +22,11 @@ const Main = ({news}) => {
     },[]);
     return (
         <div>
-            <News news={news} />
+            <News />
             <ResultsPage />
+            <MagazineFeed  />
+            <AboutUsFeed aboutUs={aboutUs}/>
+            <ContactUs />}
         </div>
     );
 };

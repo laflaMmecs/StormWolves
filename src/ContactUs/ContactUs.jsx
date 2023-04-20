@@ -5,7 +5,7 @@ const ContactUs = () => {
     const text = 'stormwolvesoff@yandex.ru'
     return (
         <div>
-            <h1 className={classes.header}>Связь с нами</h1>
+            <h1 className={classes.title}>Связь с нами</h1>
             <div className={classes.inf}>Вы можете связаться с нами через почту:</div>
             <CopyText text={text} />
         </div>

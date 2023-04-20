@@ -1,4 +1,3 @@
-
 import React from "react";
 import Magazine from "./Magazine";
 import classes from "./MagazineFeed.module.css"

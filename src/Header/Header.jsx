@@ -15,8 +15,8 @@ const Header = () => {
                     <li><Link to="/news">Новости</Link></li>
                     <li><Link to="/results">Результаты</Link></li>
                     <li><Link to="/magazine">Магазин</Link></li>
-                    <li><Link to="/players">История клуба</Link></li>
-
+                    <li><Link to="/history">История клуба</Link></li>
+                    <li><Link to="/contactus">Связаться с нами</Link></li>
             </ul>
             <img src={ogneypor} className={classes.img_sponsorOg}></img>
             <img src={sobr} className={classes.img_sponsorSobr}></img>

@@ -12,7 +12,7 @@ const Magazine = ({ magazine }) => {
         }
     }
     return (
-        <div>
+        <div className={classes.magazine}>
             <div className={classes.productCard}>
                 <h1 className={classes.productTitle}>{magazine.title}</h1>
                 <img src={image} className={classes.productImage}/>

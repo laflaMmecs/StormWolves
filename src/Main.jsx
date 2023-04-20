@@ -7,6 +7,7 @@ import {Route} from "react-router-dom";
 import MagazineFeed from "./Magazine/MagazineFeed";
 import AboutUsFeed from "./AboutUs/AboutUsFeed";
 import ContactUs from "./ContactUs/ContactUs";
+import Footer from "./Footer/Footer";
 
 const Main = ({aboutUs}) => {
 
@@ -26,7 +27,7 @@ const Main = ({aboutUs}) => {
             <ResultsPage />
             <MagazineFeed  />
             <AboutUsFeed aboutUs={aboutUs}/>
-            <ContactUs />}
+            <Footer />
         </div>
     );
 };

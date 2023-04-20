@@ -9,10 +9,11 @@
     margin: 0;
 }
 .header {
+    width: 100%;
+    height: 150px;
+    position: relative;
     display: flex;
-    border: 2px solid #252733;
-    background-color: #393c4e;
-    height: 100%;
+
 }
 .img {
     margin: 0;
@@ -22,35 +23,36 @@
 }
 .img_sponsorOg {
     margin-left: 30px;
-    margin-top: 20px;
     width: 180px;
     height: 100px;
     text-align: right;
 }
 .img_sponsorSobr {
-    margin-top: 20px;
     width: 200px;
     height: 100px;
     margin-left: 30px;
     text-align: right;
 }
 .nav {
+    width: 100%;
+    position: fixed;
     align-items: center;
     padding: 0;
     display: flex;
     list-style-type: none;
+    border: 2px solid #252733;
+    background-color: rgba(0,0,0,0.5);
 }
 .nav li a{
     justify-content: space-between;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 10px;
     font-family: Garet;
     font-size: 20px;
     margin-left: 15px;
 }
 .nav li a:hover{
-    background-color: white;
-    color: black;
+    background-color: orange;
 }

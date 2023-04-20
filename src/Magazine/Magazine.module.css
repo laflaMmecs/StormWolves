@@ -5,13 +5,18 @@
 * {
     font-family: Garet;
 }
+.magazine{
+    width: 100%;
+}
 .productCard {
     width: 800px;
     padding: 10px;
-    border: 1px solid #000;
-    border-radius: 5px;
     text-align: center;
-    background-color: #393c4e;
+    justify-content: space-between;
+    max-width: 600px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 10px orange;
+    border-radius: 10px;
 }
 
 .productTitle {

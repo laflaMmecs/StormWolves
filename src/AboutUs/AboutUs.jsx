@@ -16,7 +16,7 @@ const AboutUs = ({ aboutUs }) => {
                 <h3 className={classes.header}>{aboutUs.title}</h3>
                 <div className={classes.mainDesc}>{aboutUs.description}</div>
                 <img className={classes.imgUrl} src={aboutUs.imgUrl} />
-                <div className={classes.imgDesc} >{aboutUs.imgDesc}</div>
+                <div className={classes.imgDesc}>{aboutUs.imgDesc}</div>
             </div>
         </div>
     );

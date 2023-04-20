@@ -9,10 +9,10 @@ function CopyText({ text }) {
     }
 
     return (
-        <>
+        <div>
             <input className={classes.inp} onClick={copyText} value={text}/>
             <ToastContainer />
-        </>
+        </div>
     );
 }
 

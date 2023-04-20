@@ -1,4 +1,3 @@
-
 import AboutUs from "./AboutUs";
 import PlayersFeed from "../Players/PlayersFeed";
 import classes from "./AboutUsFeed.module.css"

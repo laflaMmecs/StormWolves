@@ -1,17 +1,58 @@
-.allPosts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+@media (max-width: 1920px) {
+    .allPosts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .title {
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        box-shadow: 0px 10px 10px orange;
+        background-color: black;
+    }
 }
-.title {
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    font-size: 40px;
-    box-shadow: 0px 10px 10px orange;
-    background-color: black;
+@media (max-width: 1820px) {
+    .allPosts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .title {
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        box-shadow: 0px 10px 10px orange;
+        background-color: black;
+    }
 }
+@media (max-width: 1320px) {
+    .allPosts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .title {
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        box-shadow: 0px 10px 10px orange;
+        background-color: black;
+    }
+}
+

@@ -32,7 +32,6 @@ function App() {
     <div className="App">
         <body>
         <Header />
-
         <Routes>
             <Route path="/StormWolves" element={<Main aboutUs={aboutUs}/>} />
             <Route path="/news" element={<News/>} />
